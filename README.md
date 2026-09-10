@@ -16,12 +16,13 @@ It is good to have basic knowledge of HTML, CSS, PHP and MySQL to understand thi
 ## Setting up the environment
 
 - Download and extract project source code on your local machine.
-- Paste the source code in the htdocs folder. Default path will be here("C:\xampp\htdocs")
+- Rename teh folder to "lms".
+- Paste the "lms" folder in the htdocs folder. Default path will be here("C:\xampp\htdocs")
 - Open XAMP Control Panel and start Apache & MySQL service
 - Open your web browser and paste this link ("http://localhost/phpmyadmin/"). It should open database server page.
-- Create new empty database named library. Select the library database and import the SQL file given with the source code.
+- Create new empty database named "library". Select the "library" database and import the SQL file given with the source code named "library.sql".
 - Review the config file from both of the includes folders. Change username and password accordingly.
-- Open your web browser and paste this link ("http://localhost/foldername-in-htdocs-directory/"). It should open login page.
+- Open your web browser and paste this link ("http://localhost/lms/"). It should open login page.
 - Admin UserName = "admin" and password = "admin".
 - Verification Code for all webpages = "12345".
 
